@@ -1,4 +1,4 @@
-package javabasic.variables;
+package javabasic;
 
 public class BienStatic {
     public static String company = "Viettel";

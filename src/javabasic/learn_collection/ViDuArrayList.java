@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ViDuArrayList {
     public static void main(String[] args) {
 
-        //khai báo array list
+        //khai báo arrayList
         ArrayList<String> arrayList = new ArrayList<>();
 
         //thêm phần tử vào arrayList
@@ -15,7 +15,7 @@ public class ViDuArrayList {
         arrayList.add("Cypress");
         arrayList.add("Selenium");
         arrayList.add("Selenium");
-        arrayList.add("Selenium");
+
 
         arrayList.add(1, "Katalon");
         arrayList.add(3, "Katalon");
@@ -28,8 +28,8 @@ public class ViDuArrayList {
 
         //Khai báo thêm arraylist thứ 2
         ArrayList<String> arrayList2 = new ArrayList<>();
-        arrayList.add("Java");
-        arrayList.add("Python");
+        arrayList2.add("Java");
+        arrayList2.add("Python");
 
         arrayList.addAll(arrayList2);
 
@@ -40,7 +40,7 @@ public class ViDuArrayList {
 
         //remove một phần tử trong arrayList
         arrayList.remove("Selenium");
-        arrayList.remove(1);
+        arrayList.remove(2);
 
         System.out.println("---------------------");
         for (int i = 0; i < arrayList.size(); i++) {
@@ -57,5 +57,7 @@ public class ViDuArrayList {
         for (int i = 0; i < arrayList.size(); i++) {
             System.out.println(arrayList.get(i));
         }
+        // TÌm kiếm giá trị phần tử
+        System.out.println(arrayList.contains("Selenium"));
     }
 }

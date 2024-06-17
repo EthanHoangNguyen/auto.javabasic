@@ -14,7 +14,7 @@ public class Logic {
      _ Chỉ đúng khi tất cả các điều kện đều đúng, ngược lại False
      _ Dùng để kết hợp các điều kiện laại với nhau theo kiểu tất cả đều đúng.
      */
-        System.out.println((message1 == message2) && (number1 <= number2));
+        System.out.println((message1 == message2) && (number1 <= number3));
 
         //Toán tử Hoặc
     /*
